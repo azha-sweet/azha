@@ -1,0 +1,124 @@
+.margin {
+    width: 1090px;
+    margin: 0 auto;
+}
+
+$color:#ff1e32;
+@mixin flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top {
+    $color: #999;
+    $font-size: 12px;
+    $line-height: 30px;
+    $padding-left: 12px;
+    background: #000;
+    font-size: $font-size;
+    line-height: $line-height;
+    .margin {
+        @include flex;
+        .left {
+            span {
+                color: $color;
+                padding-left: $padding-left;
+            }
+            .a,
+            .b,
+            .c {
+                cursor: pointer;
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+        .right {
+            span {
+                color: $color;
+                padding: 15px;
+            }
+            .a,
+            .b {
+                cursor: pointer;
+                &:hover {
+                    color: #fff;
+                }
+            }
+            .c {
+                position: relative;
+                .ul_sp {
+                    position: absolute;
+                    left: 10px;
+                    top: 0;
+                    display: none;
+                    .li_sp {
+                        padding-top: 6px;
+                        line-height: 30px;
+                        background: #fff;
+                        width: 78px;
+                        text-indent: 8px;
+                        &:hover {
+                            color: #ff1e32;
+                            cursor: pointer;
+                        }
+                    }
+                }
+                &:hover {
+                    .ul_sp {
+                        display: block;
+                        left: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.banner {
+    img {
+        width: 330px;
+        height: 75px;
+        margin: 5px;
+    }
+}
+
+.main {
+    #table {
+        thead {
+            width: 1000px;
+            tr {
+                th {
+                    width: 200px;
+                    height: 40px;
+                    border: 1px solid #999;
+                    border-collapse: collapse;
+                }
+            }
+        }
+        tr {
+            td {
+                width: 200px;
+                height: 30px;
+                border: 1px solid #999;
+                border-collapse: collapse;
+            }
+        }
+        #btn {
+            display: flex;
+            justify-content: space-around;
+            #less {
+                width: 40px;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+            #add {
+                width: 40px;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

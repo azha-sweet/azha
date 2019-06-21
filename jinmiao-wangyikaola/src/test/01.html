@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .tabbox {
+            margin: 10px;
+        }
+        
+        .tabbox ul {
+            list-style: none;
+            display: table;
+        }
+        
+        .tabbox ul li {
+            float: left;
+            width: 100px;
+            line-height: 30px;
+            padding-left: 8px;
+            border: 1px solid #aaccff;
+            margin-right: -1px;
+            cursor: pointer;
+        }
+        
+        .tabbox ul li.active {
+            background-color: #e73839;
+            color: white;
+            font-weight: bold;
+        }
+        
+        .tabbox .content {
+            border: 1px solid #aaccff;
+            padding: 10px;
+        }
+        
+        .tabbox .content>div {
+            display: none;
+        }
+        
+        .tabbox .content>div.active {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <body>
+
+        <ol>
+            <li>使用jquery实现选项卡切换效果</li>
+            <li>要求：2组选项卡相互不影响</li>
+        </ol>
+
+        <div class="tabbox">
+
+            <ul>
+
+                <li>选项卡一</li>
+
+                <li class="active">选项卡二</li>
+
+                <li>选项卡三</li>
+
+                <li>选项卡四</li>
+            </ul>
+            <div class="content">
+
+                <div>
+
+                    <div>111111111111</div>
+                </div>
+                <div class="active">
+
+                    <div>2222222222</div>
+                </div>
+
+                <div>33333333333</div>
+
+                <div>44444444</div>
+            </div>
+        </div>
+
+        <!-- <div class="tabbox">
+
+            <ul>
+
+                <li>选项卡一</li>
+
+                <li class="active">选项卡二</li>
+
+                <li>选项卡三</li>
+
+                <li>选项卡四</li>
+            </ul>
+            <div class="content">
+
+                <div>
+
+                    <div>555555555</div>
+                </div>
+                <div class="active">
+
+                    <div>66666666666</div>
+                </div>
+
+                <div>7777777777777</div>
+
+                <div>8888888888888</div>
+            </div>
+        </div> -->
+    </body>
+</body>
+<script type="text/javascript" src="../front/js/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function() {　　
+        $(".tabbox li").click(function()　　 {　　　　 //获取点击的元素给其添加样式，讲其兄弟元素的样式移除
+            　　　　
+            $(this).addClass("active").siblings().removeClass("active");　　　　 //获取选中元素的下标
+            　　　　
+            var index = $(this).index();　　　　
+            $(this).parent().siblings().children().eq(index).addClass("active")　　　　.siblings().removeClass("active");　　
+        });
+    });
+</script>
+
+</html

@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./font/font_m3v7icphj18/iconfont.css">
+    <link rel="stylesheet" href="./font/font_ahl6dcjc8xp/iconfont.css">
+    <link rel="stylesheet" href="./front/css/public.css">
+    <link rel="stylesheet" href="./front/css/style.css">
+    <link rel="stylesheet" href="./front/js/jquery.min.js">
+    <title>易购商城</title>
+
+</head>
+
+<body>
+
+    <div class="top">
+        <div class="margin">
+            <div class="left">
+                <span>欢迎你！</span>
+                <span class="a" id="login">登录</span>
+                <span class="b" id="reg"> 注册</span>
+                <span class="c">手机app</span>
+            </div>
+            <div class="right">
+                <span class="a">每日签到</span>
+                <span class="b">我的订单</span>
+                <span class="c">个人中心<i class="iconfont icon-aixin"></i>
+                <ul class="ul_sp">
+                    <li class="li_sp">个人中心</li>
+                    <li class="li_sp">我的优惠券</li>
+                    <li class="li_sp">我的积分</li>
+                    <li class="li_sp">我的红包</li>
+                    <li class="li_sp">网站管理</li>
+                    <li class="li_sp">账号管理</li>
+                    <li class="li_sp">我的发票</li>
+                    <li class="li_sp">发票抬头</li>
+                </ul>
+                </span>
+                <span class="c">客户服务<i class="iconfont icon-aixin"></i>
+                    <ul class="ul_sp">
+                        <li class="li_sp">客户服务</li>
+                        <li class="li_sp">联系客服</li>
+                        <li class="li_sp">帮助中心</li>
+                        <li class="li_sp">我的权益</li>
+                        <li class="li_sp">个人中心</li>
+                    </ul>
+                </span>
+                <span class="c">充值中心<i class="iconfont icon-aixin"></i>
+                    <ul class="ul_sp">
+                        <li class="li_sp">充值中心</li>
+                        <li class="li_sp">话费流量</li>
+                        <li class="li_sp">游戏充值</li>
+                        <li class="li_sp">AppStore</li>
+                    </ul>
+                </span>
+                <span class="c">海外者服务<i class="iconfont icon-aixin"></i>
+                    <ul class="ul_sp">
+                            <li class="li_sp">海外者服务</li>
+                        <li class="li_sp">消费者权益</li>
+                        <li class="li_sp">公知书</li>
+                        <li class="li_sp">权益书</li>
+                    </ul>
+                </span>
+                <span class="c">更多<i class="iconfont icon-aixin"></i>
+                    <ul class="ul_sp">
+                        <li class="li_sp">更多</li>
+                        <li class="li_sp">收藏本站</li>
+                        <li class="li_sp">微信公众号</li>
+                        <li class="li_sp">微博公众号</li>
+                        <li class="li_sp">招商合作</li>
+                        <li class="li_sp">考拉招聘</li>
+                    </ul>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <div class="margin">
+            <div class="left">
+                <img src="./img/logo2.jpg" alt="" id="logo">
+            </div>
+            <div class="center">
+                <input type="search" name="q" id="q" placeholder="请输入搜索的内容">
+                <button id="btn">
+                    <i class="iconfont icon-xiazai17"></i>
+                </button>
+                <ul id="list" class="Mylist">
+                    <!-- <li><a href="#">aaaaa</a></li>
+                        <li><a href="#">aaaaa</a></li>
+                        <li><a href="#">aaaaa</a></li>
+                        <li><a href="#">aaaaa</a></li> -->
+                </ul>
+
+                <div class="center_b">
+                    <span>口红</span>
+                    <span>护肤</span>
+                    <span class="a">运动</span>
+                    <span>美妆</span>
+                    <span>母婴</span>
+                    <span>健身</span>
+                </div>
+            </div>
+            <div class="right">
+                <i class="iconfont icon-gouwuchekong"></i>
+                <span id="shopCar">购物车</span>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="banner">
+        <div class="Btop margin">
+            <div class="tt">
+                <p class="ss" id="Myp">
+                    <i class="iconfont icon-aixin"></i> 所有分类
+                </p>
+
+                <ul id="Myul">
+                    <li>
+                        <a href="javascript:;">美容彩妆</a>
+
+                        <div class="show">
+                            <div class="sLeft">
+                                <dl>
+                                    <dt>护肤</dt>
+
+                                    <dd>卸妆水</dd>
+                                    <dd>个人护理</dd>
+                                    <dd>卸妆油</dd>
+                                    <dd>卸妆乳</dd>
+                                    <dd>洗面奶</dd>
+                                    <dd>洁面皂</dd>
+                                    <dd>卸妆湿巾</dd>
+                                    <dd>化妆水</dd>
+                                    <dd>保湿乳液</dd>
+                                    <dd>面霜</dd>
+                                    <dd>精华</dd>
+                                    <dd>面膜</dd>
+                                    <dd>清洁面膜</dd>
+                                    <dd>保湿乳液</dd>
+                                    <dd>面霜</dd>
+                                    <dd>精华</dd>
+                                    <dd>身体护理</dd>
+                                    <dd>洗发水</dd>
+                                </dl>
+
+                                <dl>
+                                    <dt>面膜</dt>
+
+                                    <dd>美迪惠尔</dd>
+                                    <dd>雪花秀</dd>
+                                    <dd>高丝</dd>
+                                    <dd>雪肌精</dd>
+                                    <dd>芙清</dd>
+                                    <dd>春雨</dd>
+                                    <dd>丽得姿</dd>
+                                    <dd>雅诗兰黛</dd>
+                                    <dd>lamer</dd>
+                                    <dd>JM</dd>
+                                    <dd>RAY</dd>
+                                    <dd>森田药妆</dd>
+                                </dl>
+
+                                <dl>
+                                    <dt>彩妆</dt>
+                                    <dd>眼线笔</dd>
+                                    <dd>眼影</dd>
+                                    <dd>口红</dd>
+                                    <dd>粉底液</dd>
+                                    <dd>高光</dd>
+                                    <dd>腮红</dd>
+                                    <dd>眼线胶笔</dd>
+                                    <dd>眉笔</dd>
+                                    <dd>隔离霜</dd>
+                                    <dd>防晒霜</dd>
+                                    <dd>梅子色口红</dd>
+                                    <dd>遮瑕液</dd>
+                                </dl>
+
+                                <dl>
+                                    <dt>彩妆</dt>
+                                    <dd>眼线笔</dd>
+                                    <dd>眼影</dd>
+                                    <dd>口红</dd>
+                                    <dd>粉底液</dd>
+                                    <dd>高光</dd>
+                                    <dd>腮红</dd>
+                                    <dd>眼线胶笔</dd>
+                                    <dd>眉笔</dd>
+                                    <dd>隔离霜</dd>
+                                    <dd>防晒霜</dd>
+                                    <dd>梅子色口红</dd>
+                                    <dd>遮瑕液</dd>
+                                </dl>
+
+                                <dl>
+                                    <dt>晒后修复</dt>
+                                    <dd>高丝</dd>
+                                    <dd>碧柔</dd>
+                                    <dd>水宝宝</dd>
+                                    <dd>芦荟胶</dd>
+                                    <dd>安耐晒</dd>
+                                    <dd>娜丽丝</dd>
+                                    <dd>香蕉船</dd>
+                                    <dd>苏菲娜</dd>
+                                    <dd>其他</dd>
+                                </dl>
+
+                                <dl>
+                                    <dt>香水</dt>
+                                    <dd>女士香水</dd>
+                                    <dd>中性香</dd>
+                                    <dd>男士香水</dd>
+                                    <dd>其他</dd>
+                                </dl>
+
+
+
+                            </div>
+                            <div class="sRight">
+                                <div class="top">
+                                    <img src="./img/a1.jpg" alt="">
+                                    <img src="./img/a2.jpg" alt="">
+                                    <img src="./img/a3.jpg" alt="">
+                                    <img src="./img/a4.jpg" alt="">
+                                    <img src="./img/a2.jpg" alt="">
+                                    <img src="./img/a1.jpg" alt="">
+                                </div>
+                                <div class="right">
+                                    <img src="./img/qianbi.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:;">母婴儿童</a>
+                        <div class="show">
+                            <div class="sLeft">
+                                <dl>
+                                    <dt>面膜</dt>
+
+                                    <dd>美迪惠尔</dd>
+                                    <dd>雪花秀</dd>
+                                    <dd>高丝</dd>
+                                    <dd>雪肌精</dd>
+                                    <dd>芙清</dd>
+                                    <dd>春雨</dd>
+                                    <dd>丽得姿</dd>
+                                    <dd>雅诗兰黛</dd>
+                                    <dd>lamer</dd>
+                                    <dd>JM</dd>
+                                    <dd>RAY</dd>
+                                    <dd>森田药妆</dd>
+                                </dl>
+
+                                <dl>
+                                    <dt>护肤</dt>
+
+                                    <dd>卸妆水</dd>
+                                    <dd>个人护理</dd>
+                                    <dd>卸妆油</dd>
+                                    <dd>卸妆乳</dd>
+                                    <dd>洗面奶</dd>
+                                    <dd>洁面皂</dd>
+                                    <dd>卸妆湿巾</dd>
+                                    <dd>化妆水</dd>
+                                    <dd>保湿乳液</dd>
+                                    <dd>面霜</dd>
+                                    <dd>精华</dd>
+                                    <dd>面膜</dd>
+                                    <dd>清洁面膜</dd>
+                                    <dd>保湿乳液</dd>
+                                    <dd>面霜</dd>
+                                    <dd>精华</dd>
+                                    <dd>身体护理</dd>
+                                    <dd>洗发水</dd>
+                                </dl>
+
+                                <dl>
+                                    <dt>彩妆</dt>
+                                    <dd>眼线笔</dd>
+                                    <dd>眼影</dd>
+                                    <dd>口红</dd>
+                                    <dd>粉底液</dd>
+                                    <dd>高光</dd>
+                                    <dd>腮红</dd>
+                                    <dd>眼线胶笔</dd>
+                                    <dd>眉笔</dd>
+                                    <dd>隔离霜</dd>
+                                    <dd>防晒霜</dd>
+                                    <dd>梅子色口红</dd>
+                                    <dd>遮瑕液</dd>
+                                </dl>
+
+                                <dl>
+                                    <dt>彩妆</dt>
+                                    <dd>眼线笔</dd>
+                                    <dd>眼影</dd>
+                                    <dd>口红</dd>
+                                    <dd>粉底液</dd>
+                                    <dd>高光</dd>
+                                    <dd>腮红</dd>
+                                    <dd>眼线胶笔</dd>
+                                    <dd>眉笔</dd>
+                                    <dd>隔离霜</dd>
+                                    <dd>防晒霜</dd>
+                                    <dd>梅子色口红</dd>
+                                    <dd>遮瑕液</dd>
+                                </dl>
+
+                                <dl>
+                                    <dt>晒后修复</dt>
+                                    <dd>高丝</dd>
+                                    <dd>碧柔</dd>
+                                    <dd>水宝宝</dd>
+                                    <dd>芦荟胶</dd>
+                                    <dd>安耐晒</dd>
+                                    <dd>娜丽丝</dd>
+                                    <dd>香蕉船</dd>
+                                    <dd>苏菲娜</dd>
+                                    <dd>其他</dd>
+                                </dl>
+
+                                <dl>
+                                    <dt>香水</dt>
+                                    <dd>女士香水</dd>
+                                    <dd>中性香</dd>
+                                    <dd>男士香水</dd>
+                                    <dd>其他</dd>
+                                </dl>
+
+
+
+                            </div>
+                            <div class="sRight">
+                                <div class="top">
+                                    <img src="./img/a1.jpg" alt="">
+                                    <img src="./img/a2.jpg" alt="">
+                                    <img src="./img/a3.jpg" alt="">
+                                    <img src="./img/a4.jpg" alt="">
+                                    <img src="./img/a2.jpg" alt="">
+                                    <img src="./img/a1.jpg" alt="">
+                                </div>
+                                <div class="right">
+                                    <img src="./img/qianbi.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:;">营养保健</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">电子家电</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">健康保护</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">户外运动</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">手表配饰</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">手表配饰</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">特色美食</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">服饰鞋靴</a>
+                    </li>
+
+                </ul>
+            </div>
+            <span>首页</span>
+            <span id="activity">限时折扣</span>
+            <span>每日上新</span>
+            <span>国家馆</span>
+            <span>海外旗舰店</span>
+            <span>工厂店</span>
+            <span>奶粉</span>
+            <span>面膜</span>
+            <span>礼物卡</span>
+        </div>
+        <div class="banner_center">
+            <div class="imgbox">
+                <a href="./front/product.html" target="_blank"></a>
+            </div>
+        </div>
+        <div class="banner_bottom">
+            <div class="imgbox1">
+                <a href="./front/product.html"></a>
+
+            </div>
+            <div class="imgbox2">
+                <a href="./front/product.html"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="coupon">
+        <div class="couponImg">
+            <a href="./front/product.html"></a>
+        </div>
+    </div>
+
+    <!-- <div class="new">
+        <div class="margin">
+            <span class="a">新人专享</span>
+            <ul class="new_ul">
+                <li class="new_li">
+                    <div class="imgwrap">
+                       
+                    </div>
+                    <div class="lic">
+                        <a href="">和都好多好多阿德否认</a>
+                        <span>爱的速递</span>
+                        <div class="lib">
+                            <span>新人价￥200</span>
+                            <div class="ibox">
+                                <i class="iconfont icon-gouwuchekong"></i>
+                            </div>
+
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div> -->
+
+    <div class="time">
+        <div class="margin">
+            <div class="tLeft">
+                <span class="a">易购秒杀</span>
+                <span class="b">FLASH DEALS</span>
+                <i class="iconfont icon-qianggou"></i>
+                <span class="c">具离本结束还剩</span>
+                <ul class="time_ul">
+                    <li id="hou"></li>
+                    <li id="min"></li>
+                    <li id="sec"></li>
+                </ul>
+
+            </div>
+            <div class="tRight">
+                <div class="tabbox">
+
+                    <ul>
+
+                        <li>一点场</li>
+
+                        <li class="active">三点场</li>
+
+                        <li>六点场</li>
+
+                        <li>七点场</li>
+                    </ul>
+                    <div class="content">
+
+                        <div>
+
+                            <div>
+                                <img src="./img/count.jpg" alt="">
+                                <img src="./img/count.jpg" alt="">
+                                <img src="./img/count.jpg" alt="">
+                                <img src="./img/count.jpg" alt="">
+                                <img src="./img/count.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="active">
+
+                            <div>
+                                <img src="./img/count1.jpg" alt="">
+                                <img src="./img/count1.jpg" alt="">
+                                <img src="./img/count1.jpg" alt="">
+                                <img src="./img/count1.jpg" alt="">
+                                <img src="./img/count1.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <div>
+                            <img src="./img/count4.jpg" alt="">
+                            <img src="./img/count4.jpg" alt="">
+                            <img src="./img/count4.jpg" alt="">
+                            <img src="./img/count4.jpg" alt="">
+                            <img src="./img/count4.jpg" alt="">
+                        </div>
+                        <div>
+                            <img src="./img/count3.jpg" alt="">
+                            <img src="./img/count3.jpg" alt="">
+                            <img src="./img/count3.jpg" alt="">
+                            <img src="./img/count3.jpg" alt="">
+                            <img src="./img/count3.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="about">
+        <div class="margin">
+            <div class="atop">
+                <img src="../src/img/foot.jpg" alt="">
+            </div>
+            <div class="acenter">
+                <div class="left">
+                    <div class="l_top">
+                        <img src="./img/logo2.jpg" alt="">
+
+                    </div>
+                    <div class="l_center">
+                        <span>关注我们</span>
+                        <img src="./img/images/icon1.png" alt="">
+                        <img src="./img/images/icon3.png" alt="">
+                        <img src="./img/images/icon4.png" alt="">
+                    </div>
+                </div>
+                <div class="center">
+                    <dl>
+                        <dt>易购保障</dt>
+                        <dd>假一赔十</dd>
+                        <dd>廉政监督</dd>
+                        <dd>工厂模式</dd>
+                        <dd>七天退换</dd>
+                    </dl>
+                    <dl>
+                        <dt>新手指南</dt>
+                        <dd>购物流程</dd>
+                        <dd>支付方式</dd>
+                        <dd>通关税费</dd>
+                        <dd>常见问题</dd>
+                    </dl>
+                    <dl>
+                        <dt>售后服务</dt>
+                        <dd>退货服务</dd>
+                        <dd>退货方式</dd>
+                        <dd>退货流程</dd>
+                        <dd>退货要求</dd>
+                    </dl>
+                    <dl>
+                        <dt>物流标准</dt>
+                        <dd>物流方式</dd>
+                        <dd>物流流程</dd>
+                        <dd>物流流程</dd>
+                        <dd>物流问题</dd>
+                    </dl>
+                    <dl>
+                        <dt>关于我们</dt>
+                        <dd>联系我们</dd>
+                        <dd>网站建议</dd>
+                        <dd>联系公司</dd>
+                        <dd>合作邮箱</dd>
+                    </dl>
+                </div>
+                <div class="right">
+                    <img src="./img/images/erweima.png" alt="">
+                    <span>扫描下载手机版</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="margin">
+            <div class="a">
+                <span>About NetEase- </span>
+                <span>公司简介-</span>
+                <span>联系方法-</span>
+                <span>友情链接- </span>
+                <span>招聘信息- </span>
+                <span>客户服务- </span>
+                <span>隐私政策-</span>
+                <span>网络营销-</span>
+                <span>易购商城-</span>
+            </div>
+            <div class="b">
+                <span>网络文化经营许可证：浙网文[2016]0155-055号</span>
+                <span>增值电信业务经营许可证：浙B2-20160288</span>
+                <span>自营经营者信息</span>
+                <span>（浙）网械平台备字[2018]第00007号</span>
+            </div>
+            <div class="c">
+                <span>浙公网安备 33010802002216号 </span>
+                <span>易趣公司版权所有©1997-2019</span>
+                <span>互联网药品信息服务资格证书编号（浙）-2017-0027 </span>
+                <span>浙ICP备16011229号-6</span>
+            </div>
+            <div class="d">
+                <img src="./img/images/tu4.png" alt="">
+            </div>
+        </div>
+
+    </footer>
+</body>
+<script src="./front/js/time.js"></script>
+<script type="text/javascript" src="./front/js/jquery.min.js"></script>
+<script src="./front/js/choose.js"></script>
+<script src="./front/js/input.js"></script>
+
+<script type="text/javascript">
+    $(function() {
+        $("#Myul>li>a").hide();
+        $(".show").hide();
+
+        $("#Myp").hover(function() {
+
+            $("#Myul>li>a").show(300);
+        });
+
+        $("#Myul>li>a").hover(function() {
+            $(this).siblings(".show").show(300);
+        });
+
+        $("#Myul").mouseleave(function() {
+            $(".show").hide(300);
+            $("#Myul>li>a").hide(300);
+        });
+    });
+
+    $(function() {
+        $("#login").click(function() {
+            window.open("./front/login.html")
+        });
+    });
+    $(function() {
+        $("#activity").click(function() {
+            window.open("./front/activity.html")
+        })
+    });
+
+
+    $(function() {
+        $("#shopCar").click(function() {
+            window.open("./front/shopCar.html")
+        })
+    });
+    $(function() {
+        $("#logo").click(function() {
+            window.open("index.html")
+        })
+    });
+
+    $(function() {
+        var arr = [];
+        arr = JSON.parse(localStorage.getItem("user"));
+        arr.forEach((item, index) => {
+
+            if (item.onoff === 1) {
+                var key = item.username;
+                $("#login").text(key);
+                $("#reg").text("退出登录").click(function() {
+                    aa();
+                    window.open("./front/login.html")
+                })
+            }
+
+        });
+    });
+
+    function getuser() {
+        var a = 0;
+        var arr = localStorage.getItem("user");
+        arr = JSON.parse(arr);
+        console.log(arr);
+        arr.forEach((item, index) => {
+            if (item.onoff === 1) {
+                a = item.username;
+            }
+        })
+        return a;
+    }
+
+
+    console.log(getuser());
+
+    function aa() {
+        var arr = localStorage.getItem("user");
+        console.log(arr);
+        arr = JSON.parse(arr);
+        arr.forEach((item, index) => {
+            item.onoff = 0;
+            arr = JSON.stringify(arr);
+            localStorage.setItem("user", arr)
+        })
+
+    }
+
+    function href() {
+        var b = getuser();
+        console.log(b)
+        var a = document.getElementsByTagName("a");
+        a = Array.from(a)
+
+        a.forEach((item) => {
+            item.href += `?${b}`;
+        })
+    }
+    href();
+
+
+    // for (var i = 0; i < localStorage.length; i++) {
+    //     var key = localStorage.key(i);
+    //     var value = localStorage.getItem(key);
+    // }
+    // console.log(key, value)
+
+    // $("#login").text(key);
+    // $("#reg").text("退出登录");
+</script>
+
+</html>

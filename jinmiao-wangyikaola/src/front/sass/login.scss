@@ -1,0 +1,178 @@
+.margin {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.border {
+    border: 1px solid #eaeaea;
+    border-collapse: collapse;
+}
+
+header {
+    height: 100px;
+    @extend .flex;
+    .left {
+        img {
+            width: 230px;
+            height: 70px;
+        }
+    }
+    .right {}
+}
+
+main {
+    height: 600px;
+    background: #f8f8f8;
+    @extend .border;
+    .margin {
+        @extend .flex;
+        .left {}
+        .right {
+            width: 354px;
+            margin-top: 20px;
+            @extend .border;
+            .top {
+                @extend .flex;
+                justify-content: space-around;
+                @extend .border;
+                span {
+                    line-height: 50px;
+                    font-size: 18px;
+                    font-weight: bold;
+                    &:hover {
+                        cursor: pointer;
+                        color: #e31436;
+                    }
+                }
+            }
+            .size {
+                width: 260px;
+                height: 38px;
+                box-sizing: border-box;
+            }
+            .center {
+                height: 270px;
+                background: #fff;
+                .login {
+                    display: none;
+                    padding-top: 20px;
+                    @extend .flex;
+                    flex-direction: column;
+                    align-items: center;
+                    height: 180px;
+                    input {
+                        @extend .size;
+                    }
+                    button {
+                        @extend .size;
+                        background: #e31436;
+                        color: #fff;
+                        border: none;
+                        &:hover {
+                            cursor: pointer;
+                        }
+                    }
+                    // #messge {
+                    //     line-height: 20px;
+                    // }
+                    span {
+                        color: #bdbdcb;
+                    }
+                }
+                .register {
+                    padding-top: 20px;
+                    @extend .flex;
+                    flex-direction: column;
+                    align-items: center;
+                    height: 180px;
+                    input {
+                        @extend .size;
+                    }
+                    button {
+                        @extend .size;
+                        background: #e31436;
+                        color: #fff;
+                        border: none;
+                        &:hover {
+                            cursor: pointer;
+                        }
+                    }
+                    span {
+                        color: #bdbdcb;
+                    }
+                    // #messge {
+                    //     line-height: 20px;
+                    // }
+                }
+            }
+            .bottom {
+                height: 40px;
+                @extend .border;
+                @extend .flex;
+                justify-content: space-around;
+                .bleft {
+                    padding-left: 30px;
+                    img {
+                        width: 22px;
+                        height: 22px;
+                        padding: 0 5px;
+                        &:hover {
+                            cursor: pointer;
+                        }
+                    }
+                }
+                .bright {
+                    padding-right: 40px;
+                    span {
+                        color: #e31436;
+                        &:hover {
+                            cursor: pointer;
+                            border-bottom: 1px solid #e31436;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer {
+    height: 256px;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    span {
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    .a {
+        @extend .flex;
+        font-size: 14px;
+        color: #666;
+        line-height: 28px;
+        margin-top: 30px
+    }
+    .b {
+        @extend .flex;
+        color: #999;
+        line-height: 24px;
+    }
+    .c {
+        @extend .flex;
+        color: #999;
+        line-height: 24px;
+    }
+    .d {
+        @extend .flex;
+        justify-content: center;
+        color: #999;
+        line-height: 24px;
+    }
+}

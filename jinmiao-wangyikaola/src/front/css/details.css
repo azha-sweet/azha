@@ -1,0 +1,611 @@
+.margin {
+    width: 1090px;
+    margin: 0 auto;
+}
+
+.Myflex,
+.mRight .price .pTop,
+.count .c1,
+.count .c2,
+.tage {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.top {
+    background: #000;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.top .margin {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top .margin .left span {
+    color: #999;
+    padding-left: 12px;
+}
+
+.top .margin .left .a,
+.top .margin .left .b,
+.top .margin .left .c {
+    cursor: pointer;
+}
+
+.top .margin .left .a:hover,
+.top .margin .left .b:hover,
+.top .margin .left .c:hover {
+    color: #fff;
+}
+
+.top .margin .right span {
+    color: #999;
+    padding: 15px;
+}
+
+.top .margin .right .a,
+.top .margin .right .b {
+    cursor: pointer;
+}
+
+.top .margin .right .a:hover,
+.top .margin .right .b:hover {
+    color: #fff;
+}
+
+.top .margin .right .c {
+    position: relative;
+}
+
+.top .margin .right .c .ul_sp {
+    position: absolute;
+    left: 10px;
+    top: 0;
+    display: none;
+}
+
+.top .margin .right .c .ul_sp .li_sp {
+    padding-top: 6px;
+    line-height: 30px;
+    background: #fff;
+    width: 78px;
+    text-indent: 8px;
+}
+
+.top .margin .right .c .ul_sp .li_sp:hover {
+    color: #ff1e32;
+    cursor: pointer;
+}
+
+.top .margin .right .c:hover .ul_sp {
+    display: block;
+    left: 10px;
+}
+
+header {
+    height: 120px;
+    background-color: #fff;
+    padding-top: 20px;
+}
+
+header .margin {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .margin .left img {
+    width: 200px;
+    height: 65px;
+}
+
+header .margin .center input {
+    width: 510px;
+    height: 40px;
+    border: 2px solid #ff050e;
+    border-radius: 30px;
+    box-sizing: border-box;
+    cursor: pointer;
+    outline: none;
+}
+
+header .margin .center button {
+    width: 60px;
+    height: 40px;
+    background: #ff050e;
+    border: 0;
+    border-radius: 30px;
+    margin-left: -60px;
+    outline: none;
+    cursor: pointer;
+}
+
+header .margin .center button i {
+    color: #fff;
+    font-weight: bold;
+}
+
+header .margin .center .center_b {
+    margin-top: 6px;
+}
+
+header .margin .center .center_b span {
+    color: #999;
+    padding: 0 12px;
+}
+
+header .margin .center .center_b .a {
+    color: #ff050e;
+}
+
+header .margin .right {
+    margin-right: 15px;
+    width: 110px;
+    height: 40px;
+    border: 2px solid #ff050e;
+    border-radius: 30px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+header .margin .right:hover {
+    cursor: pointer;
+}
+
+header .margin .right i {
+    font-size: 26px;
+    color: #ff050e;
+}
+
+header .margin .right span {
+    line-height: 40px;
+    font-size: 12px;
+}
+
+.banner {
+    margin-top: -40px;
+    border-bottom: 2px solid #999;
+}
+
+.banner .Btop {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner .Btop span {
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.banner .Btop span:hover {
+    color: #ff050e;
+    cursor: pointer;
+}
+
+.banner .Btop .tt {
+    height: 40px;
+    width: 160px;
+    background: #ff050e;
+}
+
+.banner .Btop .tt span {
+    color: #fff;
+}
+
+.banner .Btop .tt span i {
+    padding: 15px;
+}
+
+.border,
+.main .mLeft .mlcenter .l,
+.main .mLeft .mlcenter img,
+.main .mLeft .mlcenter .r,
+.box {
+    border: 1px solid #999;
+}
+
+.main {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .mLeft {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main .mLeft .mlTop {
+    height: 350px;
+}
+
+.main .mLeft .mlcenter {
+    width: 400px;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .mLeft .mlcenter .l {
+    width: 35px;
+    height: 66px;
+}
+
+.main .mLeft .mlcenter img {
+    width: 64px;
+    height: 64px;
+}
+
+.main .mLeft .mlcenter .r {
+    width: 35px;
+    height: 66px;
+}
+
+.main .mLeft .mlcenter:hover {
+    cursor: pointer;
+}
+
+.box {
+    width: 400px;
+    height: 300px;
+    position: absolute;
+}
+
+.box img {
+    width: 400px;
+    height: 300px;
+}
+
+.box #Myspan {
+    width: 100px;
+    height: 75px;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    background: rgba(200, 200, 200, 0.8);
+}
+
+.b_box {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    left: 500px;
+    top: 0px;
+    overflow: hidden;
+    display: none;
+    border: 1px solid #000;
+}
+
+.b_box img {
+    width: 1600px;
+    height: 1200px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.mRight {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.mRight .a {
+    font-size: 22px;
+    color: #333;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+.mRight .b {
+    font-size: 14px;
+    color: #333;
+    margin: 0 0 10px;
+    text-indent: 28px;
+}
+
+.mRight .sise,
+.mRight .act .actLeft span,
+.mRight .act .actRight span,
+.mRight .act .actRight #hou,
+.mRight .act .actRight #min,
+.mRight .act .actRight #sec {
+    font-size: 14px;
+    color: #333;
+    line-height: 40px;
+}
+
+.mRight .act {
+    background-image: url(../../img/618b.jpg);
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mRight .act .actLeft {
+    overflow: hidden;
+}
+
+.mRight .act .actLeft img {
+    height: 40px;
+    width: 100px;
+}
+
+.mRight .act .actRight {
+    width: 175px;
+}
+
+.mRight .price {
+    background: #f9f9f9;
+}
+
+.mRight .price .pTop {
+    height: 42px;
+}
+
+.mRight .price .pTop .pa {
+    font-size: 12px;
+    color: #666;
+    line-height: 24px;
+    margin: 8px 0 8px 10px;
+}
+
+.mRight .price .pTop .pb {
+    font-size: 26px;
+    color: #E31436;
+    line-height: 40px;
+    margin: 0 10px 0 40px;
+    font-weight: bold;
+}
+
+.mRight .price .pTop .pc {
+    font-size: 12px;
+    color: #999;
+    line-height: 40px;
+    margin: 0 0 8px 14px;
+}
+
+.mRight .price .pTop .pd {
+    font-size: 12px;
+    color: #fff;
+    background: #E31436;
+    width: 34px;
+    height: 18px;
+    margin-top: 15px;
+}
+
+.mRight .price .pTop:hover {
+    cursor: pointer;
+}
+
+.count .c1 {
+    margin-left: 85px;
+}
+
+.count .c1 img {
+    width: 40px;
+    height: 17px;
+}
+
+.count .c1 .c11 {
+    font-size: 12px;
+    line-height: 20px;
+    color: #1E1E1E;
+    margin: 0 5px 0 5px;
+}
+
+.count .c1 .c12 {
+    font-size: 12px;
+    line-height: 20px;
+    color: #E31436;
+}
+
+.count .c2 {
+    margin-left: 85px;
+}
+
+.count .c2 .c21 {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.count .c2 .c22 {
+    font-size: 12px;
+    color: #4a9072;
+}
+
+.count .c2:hover {
+    cursor: pointer;
+}
+
+.tage {
+    margin-left: 85px;
+}
+
+.tage img {
+    width: 40px;
+    height: 12px;
+    margin: 14px 5px 0px 5px;
+}
+
+.tage .t1 {
+    font-size: 12px;
+    color: #666;
+    line-height: 40px;
+}
+
+.tage .t2 {
+    font-size: 12px;
+    color: #4a9072;
+    line-height: 40px;
+    margin-left: 5px;
+}
+
+.tage:hover {
+    cursor: pointer;
+}
+
+.good img:hover {
+    cursor: pointer;
+}
+
+.good button {
+    width: 120px;
+    height: 50px;
+    font-size: 16px;
+    background: #E31436;
+    color: #fff;
+    border: none;
+    margin-left: 100px;
+}
+
+.good button:hover {
+    cursor: pointer;
+}
+
+.flex,
+.acenter,
+.acenter .left .l_center,
+.acenter .center,
+.acenter .right,
+footer .margin .a,
+footer .margin .b,
+footer .margin .c,
+footer .margin .d {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about {
+    background: #fff;
+}
+
+.about .margin .atop {
+    height: 147px;
+    border-bottom: 1px solid #999;
+    display: flex;
+    align-items: center;
+}
+
+.about .margin .atop img {
+    width: 960px;
+}
+
+.acenter {
+    padding: 45px 0 90px;
+}
+
+.acenter .left .l_top {
+    display: flex;
+}
+
+.acenter .left .l_top img {
+    width: 220px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.acenter .center dl {
+    margin: 0 20px 0 20px;
+}
+
+.acenter .center dl dt {
+    font-size: 18px;
+    color: #333;
+    line-height: 26px;
+}
+
+.acenter .center dl dd {
+    font-size: 12px;
+    color: #333;
+    line-height: 29px;
+}
+
+.acenter .center dl dd:hover {
+    cursor: pointer;
+    border-bottom: 1px solid #333;
+}
+
+.acenter .right {
+    flex-direction: column;
+}
+
+.acenter .right img {
+    width: 108px;
+    height: 108px;
+}
+
+.acenter .right span {
+    font-size: 14px;
+    color: #333;
+}
+
+.acenter .right span:hover {
+    cursor: pointer;
+    border-bottom: 1px solid #333;
+}
+
+footer {
+    height: 256px;
+    background: #333;
+}
+
+footer .margin {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+}
+
+footer .margin .a {
+    justify-content: center;
+    font-size: 14px;
+    color: #c2c2c2;
+    line-height: 28px;
+    margin-top: 30px;
+}
+
+footer .margin .a span {
+    margin: 5px;
+}
+
+footer .margin .a span:hover {
+    cursor: pointer;
+    border-bottom: 1px solid #666;
+}
+
+footer .margin .b {
+    justify-content: center;
+    color: #c2c2c2;
+    line-height: 24px;
+}
+
+footer .margin .b span {
+    margin-right: 20px;
+}
+
+footer .margin .c {
+    justify-content: center;
+    color: #c2c2c2;
+    line-height: 24px;
+}
+
+footer .margin .c span {
+    margin-right: 20px;
+}
+
+footer .margin .d {
+    margin-top: 10px;
+    justify-content: center;
+    justify-content: center;
+    color: #c2c2c2;
+    line-height: 24px;
+}
+
+
+/*# sourceMappingURL=details.css.map */

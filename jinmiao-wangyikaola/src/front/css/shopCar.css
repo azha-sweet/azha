@@ -1,0 +1,81 @@
+.margin {
+  width: 1090px;
+  margin: 0 auto; }
+
+.top {
+  background: #000;
+  font-size: 12px;
+  line-height: 30px; }
+  .top .margin {
+    display: flex;
+    justify-content: space-between; }
+    .top .margin .left span {
+      color: #999;
+      padding-left: 12px; }
+    .top .margin .left .a,
+    .top .margin .left .b,
+    .top .margin .left .c {
+      cursor: pointer; }
+      .top .margin .left .a:hover,
+      .top .margin .left .b:hover,
+      .top .margin .left .c:hover {
+        color: #fff; }
+    .top .margin .right span {
+      color: #999;
+      padding: 15px; }
+    .top .margin .right .a,
+    .top .margin .right .b {
+      cursor: pointer; }
+      .top .margin .right .a:hover,
+      .top .margin .right .b:hover {
+        color: #fff; }
+    .top .margin .right .c {
+      position: relative; }
+      .top .margin .right .c .ul_sp {
+        position: absolute;
+        left: 10px;
+        top: 0;
+        display: none; }
+        .top .margin .right .c .ul_sp .li_sp {
+          padding-top: 6px;
+          line-height: 30px;
+          background: #fff;
+          width: 78px;
+          text-indent: 8px; }
+          .top .margin .right .c .ul_sp .li_sp:hover {
+            color: #ff1e32;
+            cursor: pointer; }
+      .top .margin .right .c:hover .ul_sp {
+        display: block;
+        left: 10px; }
+
+.banner img {
+  width: 330px;
+  height: 75px;
+  margin: 5px; }
+
+.main #table thead {
+  width: 1000px; }
+  .main #table thead tr th {
+    width: 200px;
+    height: 40px;
+    border: 1px solid #999;
+    border-collapse: collapse; }
+.main #table tr td {
+  width: 200px;
+  height: 30px;
+  border: 1px solid #999;
+  border-collapse: collapse; }
+.main #table #btn {
+  display: flex;
+  justify-content: space-around; }
+  .main #table #btn #less {
+    width: 40px; }
+    .main #table #btn #less:hover {
+      cursor: pointer; }
+  .main #table #btn #add {
+    width: 40px; }
+    .main #table #btn #add:hover {
+      cursor: pointer; }
+
+/*# sourceMappingURL=shopCar.css.map */

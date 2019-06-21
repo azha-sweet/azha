@@ -1,0 +1,643 @@
+.margin {
+    width: 1090px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #6827aa;
+}
+
+.top {
+    background: #000;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.top .margin {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top .margin .left span {
+    color: #999;
+    padding-left: 12px;
+}
+
+.top .margin .left .a,
+.top .margin .left .b,
+.top .margin .left .c {
+    cursor: pointer;
+}
+
+.top .margin .left .a:hover,
+.top .margin .left .b:hover,
+.top .margin .left .c:hover {
+    color: #fff;
+}
+
+.top .margin .right span {
+    color: #999;
+    padding: 15px;
+}
+
+.top .margin .right .a,
+.top .margin .right .b {
+    cursor: pointer;
+}
+
+.top .margin .right .a:hover,
+.top .margin .right .b:hover {
+    color: #fff;
+}
+
+.top .margin .right .c {
+    position: relative;
+}
+
+.top .margin .right .c .ul_sp {
+    position: absolute;
+    left: 10px;
+    top: 0;
+    display: none;
+}
+
+.top .margin .right .c .ul_sp .li_sp {
+    padding-top: 6px;
+    line-height: 30px;
+    background: #fff;
+    width: 78px;
+    text-indent: 8px;
+}
+
+.top .margin .right .c .ul_sp .li_sp:hover {
+    color: #ff1e32;
+    cursor: pointer;
+}
+
+.top .margin .right .c:hover .ul_sp {
+    display: block;
+    left: 10px;
+}
+
+header {
+    height: 120px;
+    background-color: #fff;
+    padding-top: 20px;
+}
+
+header .margin {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .margin .left img {
+    width: 200px;
+    height: 65px;
+}
+
+header .margin .center input {
+    position: relative;
+    width: 510px;
+    height: 40px;
+    border: 2px solid #ff050e;
+    border-radius: 30px;
+    box-sizing: border-box;
+    cursor: pointer;
+    outline: none;
+}
+
+header .margin .center button {
+    width: 60px;
+    height: 40px;
+    background: #ff050e;
+    border: 0;
+    border-radius: 30px;
+    margin-left: -60px;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50px;
+    left: 922px;
+}
+
+header .margin .center .Mylist {
+    position: absolute;
+    top: 92px;
+    left: 415px;
+    z-index: 9999;
+}
+
+header .margin .center .Mylist li {
+    width: 500px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+    background: #FFF;
+    text-indent: 8px;
+}
+
+header .margin .center button i {
+    color: #fff;
+    font-weight: bold;
+}
+
+header .margin .center .center_b {
+    margin-top: 6px;
+}
+
+header .margin .center .center_b span {
+    color: #999;
+    padding: 0 12px;
+}
+
+header .margin .center .center_b .a {
+    color: #ff050e;
+}
+
+header .margin .right {
+    margin-right: 15px;
+    width: 110px;
+    height: 40px;
+    border: 2px solid #ff050e;
+    border-radius: 30px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+header .margin .right:hover {
+    cursor: pointer;
+}
+
+header .margin .right i {
+    font-size: 26px;
+    color: #ff050e;
+}
+
+header .margin .right span {
+    line-height: 40px;
+    font-size: 12px;
+}
+
+.banner {
+    margin-top: -40px;
+}
+
+.banner .Btop {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner .Btop span {
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.banner .Btop span:hover {
+    color: #ff050e;
+    cursor: pointer;
+}
+
+.tt {
+    background: #ff050e;
+    position: relative;
+    width: 160px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.tt .ss {
+    height: 40px;
+    color: #fff;
+    line-height: 40px;
+}
+
+.tt .ss:hover {
+    cursor: pointer;
+}
+
+.tt .ss i {
+    margin: 15px;
+}
+
+.tt ul {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    z-index: 999;
+    line-height: 40px;
+}
+
+.tt ul li {
+    width: 160px;
+    background: #ff050e;
+    text-align: center;
+    color: #fff;
+}
+
+.tt ul li a {
+    display: block;
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+}
+
+.tt ul li a:hover {
+    cursor: pointer;
+    background: #fff;
+    color: #e73839;
+}
+
+.tt ul li .show {
+    position: absolute;
+    left: 160px;
+    top: 0;
+    width: 900px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+}
+
+.tt ul li .show .sLeft {
+    width: 660px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tt ul li .show .sLeft dl {
+    width: 330px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.tt ul li .show .sLeft dl dt {
+    width: 330px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #999;
+    border-bottom: 1px solid #ccc;
+}
+
+.tt ul li .show .sLeft dl dd {
+    color: #999;
+    line-height: 30px;
+    padding: 0 10px;
+}
+
+.tt ul li .show .sLeft dl dd:hover {
+    cursor: pointer;
+}
+
+.tt ul li .show .sRight {
+    width: 240px;
+    background: #ccc;
+}
+
+.tt ul li .show .sRight .top {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: #ccc;
+}
+
+.tt ul li .show .sRight .top img {
+    width: 98px;
+    height: 98px;
+    border: 1px solid #eaeaea;
+    display: block;
+    margin: 2px 0 2px 0;
+}
+
+.tt ul li .show .sRight .right img {
+    width: 240px;
+    height: 94px;
+}
+
+.tt ul li .show .sRight .right img:hover {
+    cursor: pointer;
+}
+
+.banner_center .imgbox {
+    width: 100%;
+    height: 504px;
+    background-image: url(../../img/banner1.jpg);
+    background-position: center;
+    position: relative;
+}
+
+.banner_center .imgbox a {
+    width: 800px;
+    height: 250px;
+    top: 50px;
+    left: 200px;
+    position: absolute;
+}
+
+.banner_bottom {
+    position: relative;
+}
+
+.banner_bottom .imgbox1 {
+    width: 100%;
+    height: 232px;
+    background-image: url(../../img/1.jpg);
+    background-position: center;
+}
+
+.banner_bottom .imgbox1 a {
+    width: 970px;
+    height: 200px;
+    top: 30px;
+    left: 150px;
+    position: absolute;
+}
+
+.banner_bottom .imgbox2 {
+    width: 100%;
+    height: 236px;
+    background-image: url(../../img/2.jpg);
+    background-position: center;
+}
+
+.banner_bottom .imgbox2 a {
+    width: 970px;
+    height: 200px;
+    top: 230px;
+    left: 150px;
+    position: absolute;
+}
+
+.coupon .couponImg {
+    width: 100%;
+    height: 367px;
+    background-image: url(../../img/3.jpg);
+    background-position: center;
+    position: relative;
+}
+
+.coupon .couponImg a {
+    width: 970px;
+    height: 268px;
+    top: 110px;
+    left: 180px;
+    position: absolute;
+}
+
+.time {
+    height: 310px;
+}
+
+.time .margin {
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.time .margin .tLeft {
+    width: 190px;
+    height: 270px;
+    background: #ff1e32;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.time .margin .tLeft .a {
+    font-size: 34px;
+    line-height: 51px;
+    color: #fff;
+}
+
+.time .margin .tLeft .b {
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.time .margin .tLeft .c {
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.time .margin .tLeft .icon-qianggou {
+    font-size: 30px;
+    line-height: 40px;
+    color: #fff;
+}
+
+.time .margin .tLeft .time_ul {
+    height: 40px;
+    width: 135px;
+    margin: 25px auto 0;
+}
+
+.time .margin .tLeft .time_ul li {
+    background-color: #000;
+    float: left;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.time .margin .tRight {
+    background: #fff;
+}
+
+.time .margin .tRight .tabbox ul {
+    list-style: none;
+    display: table;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.time .margin .tRight .tabbox ul li {
+    width: 150px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #fff;
+    margin-right: -1px;
+    color: #e73839;
+    cursor: pointer;
+}
+
+.time .margin .tRight .tabbox ul li.active {
+    background-color: #e73839;
+    color: white;
+    font-weight: bold;
+}
+
+.time .margin .tRight .tabbox .content {
+    margin-top: 15px;
+    padding: 20px;
+}
+
+.time .margin .tRight .tabbox .content>div {
+    display: none;
+}
+
+.time .margin .tRight .tabbox .content>div img {
+    width: 140px;
+    height: 140px;
+}
+
+.time .margin .tRight .tabbox .content>div.active {
+    display: block;
+}
+
+.flex,
+.acenter,
+.acenter .left .l_center,
+.acenter .center,
+.acenter .right,
+footer .margin .a,
+footer .margin .b,
+footer .margin .c,
+footer .margin .d {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about {
+    background: #fff;
+}
+
+.about .margin .atop {
+    height: 147px;
+    border-bottom: 1px solid #999;
+    display: flex;
+    align-items: center;
+}
+
+.about .margin .atop img {
+    width: 960px;
+}
+
+.acenter {
+    padding: 45px 0 90px;
+}
+
+.acenter .left .l_top {
+    display: flex;
+}
+
+.acenter .left .l_top img {
+    width: 220px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.acenter .center dl {
+    margin: 0 20px 0 20px;
+}
+
+.acenter .center dl dt {
+    font-size: 18px;
+    color: #333;
+    line-height: 26px;
+}
+
+.acenter .center dl dd {
+    font-size: 12px;
+    color: #333;
+    line-height: 29px;
+}
+
+.acenter .center dl dd:hover {
+    cursor: pointer;
+    border-bottom: 1px solid #333;
+}
+
+.acenter .right {
+    flex-direction: column;
+}
+
+.acenter .right img {
+    width: 108px;
+    height: 108px;
+}
+
+.acenter .right span {
+    font-size: 14px;
+    color: #333;
+}
+
+.acenter .right span:hover {
+    cursor: pointer;
+    border-bottom: 1px solid #333;
+}
+
+footer {
+    height: 256px;
+    background: #333;
+}
+
+footer .margin {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+}
+
+footer .margin .a {
+    justify-content: center;
+    font-size: 14px;
+    color: #c2c2c2;
+    line-height: 28px;
+    margin-top: 30px;
+}
+
+footer .margin .a span {
+    margin: 5px;
+}
+
+footer .margin .a span:hover {
+    cursor: pointer;
+    border-bottom: 1px solid #666;
+}
+
+footer .margin .b {
+    justify-content: center;
+    color: #c2c2c2;
+    line-height: 24px;
+}
+
+footer .margin .b span {
+    margin-right: 20px;
+}
+
+footer .margin .c {
+    justify-content: center;
+    color: #c2c2c2;
+    line-height: 24px;
+}
+
+footer .margin .c span {
+    margin-right: 20px;
+}
+
+footer .margin .d {
+    margin-top: 10px;
+    justify-content: center;
+    justify-content: center;
+    color: #c2c2c2;
+    line-height: 24px;
+}
+
+
+/*# sourceMappingURL=style.css.map */

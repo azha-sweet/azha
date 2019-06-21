@@ -1,0 +1,111 @@
+.margin {
+  width: 1000px;
+  margin: 0 auto; }
+
+.flex, header, main .margin, main .margin .right .top, main .margin .right .center .login, main .margin .right .center .register, main .margin .right .bottom, footer .a, footer .b, footer .c, footer .d {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.border, main, main .margin .right, main .margin .right .top, main .margin .right .bottom {
+  border: 1px solid #eaeaea;
+  border-collapse: collapse; }
+
+header {
+  height: 100px; }
+  header .left img {
+    width: 230px;
+    height: 70px; }
+
+main {
+  height: 600px;
+  background: #f8f8f8; }
+  main .margin .right {
+    width: 354px;
+    margin-top: 20px; }
+    main .margin .right .top {
+      justify-content: space-around; }
+      main .margin .right .top span {
+        line-height: 50px;
+        font-size: 18px;
+        font-weight: bold; }
+        main .margin .right .top span:hover {
+          cursor: pointer;
+          color: #e31436; }
+    main .margin .right .size, main .margin .right .center .login input, main .margin .right .center .login button, main .margin .right .center .register input, main .margin .right .center .register button {
+      width: 260px;
+      height: 38px;
+      box-sizing: border-box; }
+    main .margin .right .center {
+      height: 270px;
+      background: #fff; }
+      main .margin .right .center .login {
+        display: none;
+        padding-top: 20px;
+        flex-direction: column;
+        align-items: center;
+        height: 180px; }
+        main .margin .right .center .login button {
+          background: #e31436;
+          color: #fff;
+          border: none; }
+          main .margin .right .center .login button:hover {
+            cursor: pointer; }
+        main .margin .right .center .login span {
+          color: #bdbdcb; }
+      main .margin .right .center .register {
+        padding-top: 20px;
+        flex-direction: column;
+        align-items: center;
+        height: 180px; }
+        main .margin .right .center .register button {
+          background: #e31436;
+          color: #fff;
+          border: none; }
+          main .margin .right .center .register button:hover {
+            cursor: pointer; }
+        main .margin .right .center .register span {
+          color: #bdbdcb; }
+    main .margin .right .bottom {
+      height: 40px;
+      justify-content: space-around; }
+      main .margin .right .bottom .bleft {
+        padding-left: 30px; }
+        main .margin .right .bottom .bleft img {
+          width: 22px;
+          height: 22px;
+          padding: 0 5px; }
+          main .margin .right .bottom .bleft img:hover {
+            cursor: pointer; }
+      main .margin .right .bottom .bright {
+        padding-right: 40px; }
+        main .margin .right .bottom .bright span {
+          color: #e31436; }
+          main .margin .right .bottom .bright span:hover {
+            cursor: pointer;
+            border-bottom: 1px solid #e31436; }
+
+footer {
+  height: 256px;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px; }
+  footer span:hover {
+    cursor: pointer; }
+  footer .a {
+    font-size: 14px;
+    color: #666;
+    line-height: 28px;
+    margin-top: 30px; }
+  footer .b {
+    color: #999;
+    line-height: 24px; }
+  footer .c {
+    color: #999;
+    line-height: 24px; }
+  footer .d {
+    justify-content: center;
+    color: #999;
+    line-height: 24px; }
+
+/*# sourceMappingURL=login.css.map */
